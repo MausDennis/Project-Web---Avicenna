@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+	<title>Belajar JavaScript</title> 
+	<h3>Program JavaScript Validasi Data Honor</h3>
+	<script> 
+	function validasi() 
+	{ 
+		var nama = document.forms[0]["nama"].value; 
+		var jmljamkerja = parseInt(document.forms[0]["jmljamkerja"].value); 
+		var stdjamkerja = parseInt(document.forms[0]["stdjamkerja"].value); 
+		var honornormal = parseInt(document.forms[0]["honornormal"].value); 
+		var tariflembur = parseInt(document.forms[0]["tariflembur"].value); 
+		
+		valid=true; 
+		if(nama=="") valid=false; 
+		if(isNaN(jmljamkerja) || jmljamkerja < 8 || jmljamkerja > 12) valid=false; 
+		if(isNaN(stdjamkerja) || stdjamkerja !=8 ) valid=false; 
+		if(isNaN(honornormal) || honornormal !=75000) valid=false; 
+		if(isNaN(tariflembur) || tariflembur !=25000) valid=false; 
+		if(!valid) document.forms[0]["myoutput"].value=("Masih ada yang kosong atau salah input!"); 
+		return valid; 
+	}
+	</script> 
+</head> 
+<body> 
+	<h4>Form Data</h4> 
+	<table>
+	<form> 
+		<tr> 
+			<td>Jam Kerja Standar Sehari</td> 
+			<td><input type="text" name="stdjamkerja" size="25" value="8"></td> 
+		</tr> 
+		<tr> 
+			<td>Honor Jam Kerja Standar</td> 
+			<td><input type="text" name="honornormal" size="25" value="75000"></td> 
+		</tr> 
+		<tr> 
+			<td>Tarif Lembur Per Jam</td> 
+			<td><input type="text" name="tariflembur" size="25" value="25000"></td> 
+		</tr> 
+		<tr> 
+			<td>Nama</td> 
+			<td><input type="text" name="nama" size="25"></td> 
+		</tr> 
+		<tr> 
+			<td>Jumlah Jam Kerja</td> 
+			<td><input type="text" name="jmljamkerja" size="25"></td> 
+		</tr> 
+		<tr> 
+			<td></td> 
+			<td><button type="submit" onclick="return validasi();">Kirim</button></td> 
+		</tr> 
+		<tr> 
+			<td><output name="myoutput"></output></td> 
+		</tr> 
+	</form> 
+	</table> 
+	<br> 
+	<hr> 
+	<small>Broadband Multimedia &copy; 2020 
+</body> 
+</html>

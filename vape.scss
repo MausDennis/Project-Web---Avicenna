@@ -1,0 +1,144 @@
+body{
+    background: #f0e3ff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+}
+
+.header{
+    background: #101341;
+    position: fixed;
+    top: 0;
+
+    .container{
+        max-width: 1400px;
+        width: 100%;
+        margin: 0 auto;
+
+        .wrap {
+            &:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+
+                .logo{
+                    padding: 15px 15px;
+                    float: left;
+                }
+
+                .menu{
+                    float: right;
+                    padding-left: 468px;
+                    ul{
+                        list-style: none;
+                        li{
+                            float: left;
+                        a{
+                            text-decoration: none;
+                            display: block;
+                            padding: 20px;
+                            margin-top: 30px;
+                            font-weight: 800;
+                            letter-spacing: 2px;
+                            color: white;
+                            transition: 0.5s;
+                            &:hover{
+                                background: #ffffff;
+                                color: #101341;
+                            }
+                        }
+                    }
+                }
+            }
+        }           
+    }
+}
+
+.banner{    
+    .vapehint{
+            .image{
+                margin-top: 150px;
+                margin-left: 100px;
+                box-sizing: border-box;
+                float: left;
+            }
+
+            .article{
+            text-decoration: none;
+            width: 70%;
+            box-sizing: border-box;
+            float: left;
+            margin-left: 100px;
+            .title{
+                h1{
+                    margin-top: 50px;
+                    font-size: 40px;
+                    font-weight: 500;
+                    letter-spacing: -1px;
+                }
+            }
+
+            .news{
+                 p{
+                    text-align: justify;
+                    margin-right: 50px;
+                }   
+            }
+        }
+
+        .btn-more{
+                padding: 20px 40px;
+                display: inline-block;
+                background: #101341;
+                color: #ffffff;
+                text-decoration: none;
+                letter-spacing: 1px;
+                margin-left: 100px;
+                margin-top: 10px;
+                margin-bottom: 100px;
+                transition: 0.5s;
+                &:hover{
+                    background: #ffffff;
+                    color: #101341;
+                    }
+            }
+
+            
+        }
+
+}
+
+.footer{
+
+    background: #101341;
+    bottom: 0;
+
+    .container2{
+        max-width: 1400px;
+        width: 100%;
+
+        .wrap2 {
+            &:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+
+                .logo2{
+                    padding: 0 15px;
+                    margin-top: 50px;
+                    float: right;
+                }
+
+                .copyright{
+                    color: white;
+                    float: left;
+                    padding: 0 20px;
+                    margin-top: 90px;
+                    font-weight: 500;
+                }
+        }
+    }
+
+
+}

@@ -1,0 +1,263 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+}
+
+.header {
+  background: #101341;
+  position: fixed;
+  top: 0;
+}
+
+.header .container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header .container .wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header .container .wrap .logo {
+  padding: 15px 15px;
+  float: left;
+}
+
+.header .container .wrap .menu {
+  float: right;
+  padding-left: 468px;
+}
+
+.header .container .wrap .menu ul {
+  list-style: none;
+}
+
+.header .container .wrap .menu ul li {
+  float: left;
+}
+
+.header .container .wrap .menu ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  margin-top: 30px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header .container .wrap .menu ul li a:hover {
+  background: #ffffff;
+  color: #101341;
+}
+
+.banner {
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner h2 {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 200px;
+  margin-left: 100px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.banner hr {
+  display: block;
+  unicode-bidi: -webkit-isolate;
+  unicode-bidi: isolate;
+  margin: 0px 100px;
+}
+
+.banner .vaksinhint {
+  background: #ffffff;
+}
+
+.banner .vaksinhint .article {
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+  margin-left: 100px;
+}
+
+.banner .vaksinhint .article h1 {
+  margin-top: 180px;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+
+.banner .vaksinhint .article p {
+  text-align: left;
+  margin-right: 50px;
+}
+
+.banner .vaksinhint .image {
+  width: 40%;
+  margin-top: 180px;
+  margin-right: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: right;
+}
+
+.banner .vaksinhint .btn-more {
+  padding: 20px 40px;
+  display: inline-block;
+  background: #101341;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin-left: 100px;
+  margin-top: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.banner .vaksinhint .btn-more:hover {
+  background: #ffffff;
+  color: #101341;
+}
+
+.banner .vapehint {
+  background: #ffffff;
+}
+
+.banner .vapehint .article2 {
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: right;
+  margin-right: 70px;
+}
+
+.banner .vapehint .article2 h1 {
+  margin-top: 190px;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  text-align: right;
+}
+
+.banner .vapehint .article2 p {
+  text-align: right;
+  margin-left: 60px;
+}
+
+.banner .vapehint .image2 {
+  width: 40%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+  margin-top: 190px;
+  margin-left: 60px;
+}
+
+.banner .vapehint .btn-more2 {
+  padding: 20px 40px;
+  display: inline-block;
+  background: #101341;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin-left: 440px;
+  margin-top: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.banner .vapehint .btn-more2:hover {
+  background: #ffffff;
+  color: #101341;
+}
+
+.banner .jantunghint {
+  background: #ffffff;
+  padding-bottom: 20%;
+}
+
+.banner .jantunghint .article3 {
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+  margin-left: 100px;
+}
+
+.banner .jantunghint .article3 h1 {
+  margin-top: 150px;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+
+.banner .jantunghint .article3 p {
+  text-align: left;
+  margin-right: 50px;
+}
+
+.banner .jantunghint .image3 {
+  width: 40%;
+  margin-top: 150px;
+  margin-right: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: right;
+}
+
+.banner .jantunghint .btn-more3 {
+  padding: 20px 40px;
+  display: inline-block;
+  background: #101341;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin-left: 100px;
+  margin-top: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.banner .jantunghint .btn-more3:hover {
+  background: #ffffff;
+  color: #101341;
+}
+
+.footer {
+  background: #101341;
+  bottom: 0;
+}
+
+.footer .container2 {
+  max-width: 1400px;
+  width: 100%;
+}
+
+.footer .container2 .wrap2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer .container2 .wrap2 .logo2 {
+  padding: 0 15px;
+  margin-top: 50px;
+  float: right;
+}
+
+.footer .container2 .wrap2 .copyright {
+  color: white;
+  float: left;
+  padding: 0 20px;
+  margin-top: 90px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=artikel.css.map */

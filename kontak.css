@@ -1,0 +1,160 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+}
+
+.header {
+  background: #101341;
+  position: fixed;
+  top: 0;
+}
+
+.header .container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header .container .wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header .container .wrap .logo {
+  padding: 15px 15px;
+  float: left;
+}
+
+.header .container .wrap .menu {
+  float: right;
+  padding-left: 468px;
+}
+
+.header .container .wrap .menu ul {
+  list-style: none;
+}
+
+.header .container .wrap .menu ul li {
+  float: left;
+}
+
+.header .container .wrap .menu ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  margin-top: 30px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header .container .wrap .menu ul li a:hover {
+  background: #ffffff;
+  color: #101341;
+}
+
+.kontak .apip {
+  background: #ffffff;
+  margin-top: 200px;
+}
+
+.kontak .apip .title {
+  width: 70%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: right;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.kontak .apip .title h2 {
+  margin-top: 180px;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.kontak .apip .title p {
+  text-align: left;
+  margin-right: 50px;
+}
+
+.kontak .apip .img {
+  width: 30%;
+  margin-top: 180px;
+  margin-right: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+}
+
+.kontak .thareq {
+  background: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.kontak .thareq .title {
+  width: 70%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: right;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.kontak .thareq .title h2 {
+  margin-top: 180px;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.kontak .thareq .title p {
+  text-align: left;
+  margin-right: 50px;
+}
+
+.kontak .thareq .img {
+  width: 30%;
+  margin-top: 180px;
+  margin-left: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+}
+
+.footer {
+  background: #101341;
+  bottom: 0;
+}
+
+.footer .container2 {
+  max-width: 1400px;
+  width: 100%;
+}
+
+.footer .container2 .wrap2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer .container2 .wrap2 .logo2 {
+  padding: 0 15px;
+  margin-top: 50px;
+  float: right;
+}
+
+.footer .container2 .wrap2 .copyright {
+  color: white;
+  float: left;
+  padding: 0 20px;
+  margin-top: 90px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=kontak.css.map */
